@@ -49,8 +49,20 @@ ul {
 
 /* ========== Хедер ========== */
 /* Верхні поля хедеру */
-.header {
+.hero {
   padding-top: 50px;
+
+  background-image: url(../images/IMAGE.jpg);
+  background-size: 1440px 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0D0D33;
+
+}
+
+.header {
+  position: absolute;
+  width: 100%;
 }
 
 /* Горизонтальне розташування елементів хедеру та їх центрування */
@@ -154,4 +166,95 @@ ul {
   background-color: var(--accent-color);
   color: var(--secondary-font-color);
   border-radius: 4px;
+}
+
+/* Work */
+.work {
+  padding-top: 150px;
+  padding-bottom: 70px;
+
+  background: linear-gradient(to bottom, #0E0E33, #0E0E33 40%, #ffffff 40%, #ffffff 100%);
+}
+
+.work-title {
+  margin-bottom: 80px;
+
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 1.22;
+  text-align: center;
+
+  color: var(--secondary-font-color);
+
+}
+
+.work-list {
+  display: flex;
+  gap: 140px;
+  padding: 0 20px 0 40px;
+  margin-bottom: 100px;
+}
+
+.work-item {
+  width: 170px;
+}
+
+.work-text {
+  font-size: 11px;
+  line-height: 2.73;
+  color: var(--secondary-font-color);
+}
+
+.work-number {
+  font-size: 42px;
+  line-height: 1.19;
+  color: var(--secondary-font-color);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.project-item {
+  padding: 10px;
+  width: 565px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  background-color: var(--secondary-font-color);
+}
+
+.work-wrap {
+  padding: 45px 30px 35px;
+}
+
+.work-projects {
+  margin-bottom: 25px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.58;
+  color: var(--black);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-font-color);
+}
+
+.work-btn {
+  padding: 15px 50px;
+  display: block;
+  margin: 0 auto;
+
+  font-size: 15px;
+  line-height: 2;
+  color: var(--secondary-font-color);
+  background: #0A8BFE;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
