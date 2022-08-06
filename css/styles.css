@@ -12,9 +12,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-font-color);
-
-  /* Тимчасовий фон */
-  background-color: var(--gray-bg);
 }
 
 /* Скидання відступів тегів */
@@ -168,6 +165,98 @@ ul {
   border-radius: 4px;
 }
 
+/* About us */
+/* .about-title {
+  font-size: 41px;
+  line-height: 1, 22;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 12px;
+  line-height: 2, 5;
+  text-align: center;
+}
+
+.about-list {} */
+
+/* Services */
+.services {
+  padding: 150px 0;
+  background-color: #fff;
+}
+
+.service-title {
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 1, 22;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 35px;
+}
+
+.service-desc {
+  font-size: 12px;
+  line-height: 2, 50;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.service-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.service-btn {
+  font-size: 24px;
+  line-height: 1, 58;
+  text-align: center;
+  color: var(--black);
+  background-color: transparent;
+  border: none;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.card-item {
+  width: 560px;
+  padding: 40px 80px 40px 40px;
+  border: 1px solid #E8E8E8;
+}
+
+.card-title {
+  margin-bottom: 23px;
+
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1, 47;
+  color: var(--black);
+}
+
+.card-desc {
+  font-size: 16px;
+  line-height: 1, 88;
+}
+
+.card-btn {
+  padding: 15px 50px;
+  display: inline-flex;
+  justify-content: center;
+
+  font-size: 15px;
+  line-height: 2;
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
 /* Work */
 .work {
   padding-top: 150px;
@@ -257,4 +346,73 @@ ul {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+/* Form*/
+.section-form {
+  padding: 414px 0 210px;
+
+  background-image: url(../images/IMAGE-form.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.form {
+  width: 600px;
+  height: 571px;
+  padding: 30px 50px;
+
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+
+.form-title {
+  width: 323px;
+  margin-bottom: 125px;
+
+  font-size: 25px;
+  line-height: 1.52;
+  color: var(--black);
+}
+
+.form-input {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 60px;
+  padding: 18px 20px;
+
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+}
+
+.form-input-details {
+  margin-bottom: 40px;
+  height: 120px;
+  resize: none;
+}
+
+.form-input::placeholder {
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+  color: var(--black);
+}
+
+.form-btn {
+  padding: 18px 48px;
+  display: block;
+  margin: 0 auto;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
 }
